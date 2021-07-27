@@ -5,7 +5,7 @@ let counter = 0;
 
 let helloMsg = prompt('Welcom to guessing-game. Colud you write your name please!!');
 
-let message = alert('Before we get start the user name is:' + helloMsg);
+let message = alert('Before we get start the user name is: ' + helloMsg);
 let play = confirm('do you enjoy to play numirce puzzel!!');
 console.log(play);
 
@@ -78,7 +78,7 @@ switch (average) {
   case 'no':
   case 'n':
     alert('very very good')
-    console.log(sequnce);
+    console.log(average);
     counter++;
     break;
 
@@ -92,12 +92,14 @@ alert('Thanks for your visit' + helloMsg + 'Now!! after you answer numeric puzze
 //the nile river/Length 6,650 km
 for (let i = 0; i < 4; i++) {
   let lengthRiver = prompt('the Nile river/Length is :');
+  console.log(lengthRiver);
   if (lengthRiver < 6650) { alert('too low') }
 
   else if (lengthRiver > 6650) { alert('too high') }
 
   else {
-    if (lengthRiver == 6650) { alert('this is right answer ^_^'+'The Nile River Lenght ' +lengthRiver)
+    if (lengthRiver == 6650) {
+      alert('this is right answer ^_^' + 'The Nile River Lenght ' + lengthRiver)
       counter++;
     }
     break;
@@ -105,16 +107,21 @@ for (let i = 0; i < 4; i++) {
 }
 //area of jordan=893420km
 let areaJordan = [893420, 893421, 893422, 893423];
-for (let i = 0; i< 6; i++) {
+for (let i = 0; i < 6; i++) {
   let area = prompt('can you guess how many Jordan area !!');
+  console.log(area);
   if (area > areaJordan[i]) { alert('too high') }
   else if (area < areaJordan[i]) { alert('too low') }
-  else {
-    if (area == areaJordan[i]) {alert('this correct answer' +' Jordan area equal ' + areaJordan[i])
-      
-    }
-    counter++;
-    break;
+  else {if (area = areaJordan[i]) {
+    alert('this correct answer' + ' Jordan area equal ' + areaJordan[i])
+
   }
-}
-alert('your Result is' + counter)
+  counter++;
+  break;
+}}
+console.log(counter);
+alert('your Result is ' + counter);
+
+let longestRiver = ["Nile", "Amazon", "Mississippi", "Yenisei"];
+longestRiver.join(" and ");
+for (i=0; i<4 ; i++){console.log(longestRiver[i])}
