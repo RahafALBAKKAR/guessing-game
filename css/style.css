@@ -1,5 +1,10 @@
 img {
-    float: right;
+    float: left;
     height: 4cm;
     width: 3cm;}
 
+    p {
+        color: blueviolet;
+        float: right;
+
+    }
