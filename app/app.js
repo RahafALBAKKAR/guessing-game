@@ -54,13 +54,13 @@ switch (sequnce) {
   case 'y':
     alert('an awseom this hard question but you solve it..lets go')
     console.log(sequnce);
-   counter++;
+    counter++;
     break;
 
   case 'no':
   case 'n':
     alert('Dont worry,try last one');
-break;
+    break;
 
 }
 
@@ -79,13 +79,13 @@ switch (average) {
   case 'n':
     alert('very very good')
     console.log(sequnce);
-   counter++;
+    counter++;
     break;
 
   case 'yes':
   case 'y':
     alert('Good Luck');
-break;
+    break;
 
 }
 alert('Thanks for your visit' + helloMsg + 'Now!! after you answer numeric puzzel let us check Your knowledge of geography');
@@ -97,13 +97,24 @@ for (let i = 0; i < 4; i++) {
   else if (lengthRiver > 6650) { alert('too high') }
 
   else {
-    if (lengthRiver === 6650) {
-      alert('this is right answer ^_^')
+    if (lengthRiver == 6650) { alert('this is right answer ^_^'+'The Nile River Lenght ' +lengthRiver)
       counter++;
     }
-   
     break;
   }
-
 }
-alert('your dgree is' + counter)
+//area of jordan=893420km
+let areaJordan = [893420, 893421, 893422, 893423];
+for (let i = 0; i< 6; i++) {
+  let area = prompt('can you guess how many Jordan area !!');
+  if (area > areaJordan[i]) { alert('too high') }
+  else if (area < areaJordan[i]) { alert('too low') }
+  else {
+    if (area == areaJordan[i]) {alert('this correct answer' +' Jordan area equal ' + areaJordan[i])
+      
+    }
+    counter++;
+    break;
+  }
+}
+alert('your Result is' + counter)
