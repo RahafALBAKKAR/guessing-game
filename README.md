@@ -12,13 +12,15 @@ ________
     1.I add new questions for user and give him opportunities to solve it and give him feedback with correct anwer.
 _____
 28.July.21
-- Today we started work in pairs 
-I worked with my partnet and divided time between other to duscuis what we wel do 
-this is skill to learn "Time management and team work". 
+1. Today we started work in pairs I worked with my partner and divided time between other to discus what we do, this is skill to learn "Time management and team work".
 
--the names of the Driver: Mohmammad  
+2.  you can play this role one of time I'm the Drive and Navigator that allowed to me to solve problem and git critical thinking, so in the future I can a big head in developer.
  Navigator: me then we switch the role.
+ the names of the Driver: Mohmammad 
 
-- Today we learned about functions we definded the mean of function and knew where and how to use it.
+3. Today we learned about functions we defined the mean of function and knew where and how to use it.
+_________
+
+
 
     
