@@ -89,6 +89,7 @@ switch (average) {
 
 }
 alert('Thanks for your visit ' + helloMsg + ' Now!! after you answer numerical puzzel let us check Your knowledge of geography');
+
 //the nile river/Length 6,650 km
 for (let i = 0; i < 4; i++) {
   let lengthRiver = prompt('the Nile river/Length is :');
@@ -104,24 +105,34 @@ for (let i = 0; i < 4; i++) {
     }
     break;
   }
+
 }
-//area of jordan=893420km
-let areaJordan = [893420, 893421, 893422, 893423];
+alert('The Nile River lenght is 6650 km')
+
+//
+let longestRivers = ['Nile River', 'Amazone River', 'Yangtze River', 'Mississippi', 'Yenisei'];
 for (let i = 0; i < 6; i++) {
-  let area = prompt('can you guess how many Jordan area !!');
-  console.log(area);
-  if (area > areaJordan[i]) { alert('too high') }
-  else if (area < areaJordan[i]) { alert('too low') }
-  else {if (area = areaJordan[i]) {
-    alert('this correct answer' + ' Jordan area equal ' + areaJordan[i])
+  let river = prompt('can you guess What is the longest rivers in the world !!');
+  console.log(river);
+
+  for (let x; i < longestRivers.length; x++) {
+    if (river = longestRivers[i]) { alert('that is far, try again') }
+    else if (river == longestRivers[i]) {
+      alert('this correct answer one og hte longest river in the world is ' + longestRiver[i])
+
+    }
+    counter++;
+    break;
 
   }
-  counter++;
-  break;
-}}
+}
+
 console.log(counter);
+alert('The five longest rivers in the wolrd are Nile ,Amazon, Yangtze,Mississippiand Yenisei')
 alert('your Result is ' + counter);
 
 let longestRiver = ["Nile", "Amazon", "Mississippi", "Yenisei"];
 longestRiver.join(" and ");
-for (i=0; i<4 ; i++){console.log(longestRiver[i])}
+for (i = 0; i < 4; i++) {
+  console.log(longestRiver[i]);
+}
