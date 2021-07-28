@@ -151,3 +151,36 @@ longestRiver.join(" and ");
 for (i = 0; i < 4; i++) {
   console.log(longestRiver[i]);
 }
+
+
+/* Work from collections of like data: 
+Create 3 arrays, one for each of: your questions, the correct answers,
+and the two possible responses. (The same applies if you’ve added in any other 
+  pieces to the questions besides the most basic structure.) 
+Replace that content in the functions by accessing the arrays.
+
+let array_of_functions = [
+  sequnceMath(),
+  dividedMath(),
+  averageMath(),
+  sequnceMath()
+]*/
+
+
+
+//----------------------------------------------------------------//
+/*Make it DRY: Reduce the yes/no questions from five functions 
+to one function, and then use a ‘for’ loop to iterate through the arrays and 
+call the function for each question.
+
+
+var yesNo = [ subtract, divided, average , sequnce]; 
+
+function call_me(params) {
+  for (i=0; i<params.length; i++) {
+    alert(params[i])
+  }
+  return params;
+}
+
+call_me();*/
