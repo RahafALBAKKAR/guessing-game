@@ -6,7 +6,7 @@ let counter = 0;
 let helloMsg = prompt('Welcom to guessing-game. Colud you write your name please!!');
 
 let message = alert('Before we get start the user name is: ' + helloMsg);
-let play = confirm('do you enjoy to play numirce puzzel!!');
+let play = confirm('do you enjoy to play numerical puzzel!!');
 console.log(play);
 
 let subtract = prompt('does Subtract 869 from 2482 equal 1613').toLocaleLowerCase();
@@ -38,7 +38,7 @@ break;
 switch (divided) {
   case 'no':
   case 'n':
-    alert('you are good in math so let take another question');
+    alert('you are good in math so let take other question');
     console.log(divided)
     counter++;
     break;
@@ -52,7 +52,7 @@ let sequnce = prompt('to complete this sequnce 1, 1, 2, 3, X , 8, 13 the value o
 switch (sequnce) {
   case 'yes':
   case 'y':
-    alert('an awseom this hard question but you solve it..lets go')
+    alert('An awesome this hard question but you solve it..lets go')
     console.log(sequnce);
     counter++;
     break;
@@ -88,7 +88,7 @@ switch (average) {
     break;
 
 }
-alert('Thanks for your visit' + helloMsg + 'Now!! after you answer numeric puzzel let us check Your knowledge of geography');
+alert('Thanks for your visit ' + helloMsg + ' Now!! after you answer numerical puzzel let us check Your knowledge of geography');
 //the nile river/Length 6,650 km
 for (let i = 0; i < 4; i++) {
   let lengthRiver = prompt('the Nile river/Length is :');
