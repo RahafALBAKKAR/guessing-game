@@ -1,18 +1,46 @@
 img {
-    float: left;
+    float: right;
     height: 4cm;
-    width: 3cm;}
+    width: 5cm;
+    
+}
 
-    p {
-        border: darkblue;
-        border-style:groove ;
-        text-align: center;
-        padding:10%;
-        color: blueviolet;
-        float: right;}
+p {
+    border: darkblue;
+    border-radius: 5%;
+    border-style:groove ;
+    box-sizing: content-box;
+    border-spacing: 5%;
+    text-align:start;
+    border-collapse: collapse;
+    padding:8%;
+    color: blueviolet;
+    float: right;
+    margin: 5%;
+}
 
-        body{
-            background-color: rgb(173, 235, 235);
-        }
+body{
+    background-color: rgb(173, 235, 235);
+    }
 
-        
+ nav{
+    
+     float:left;
+ }       
+ul{
+    text-align: justify;
+    padding: 1%;
+
+}
+h2{
+    text-decoration: rgb(117, 16, 16);
+    text-align: left;
+    font-style:oblique;
+}
+li{
+    font-style:oblique;
+font-family: cursive;
+}
+a{
+    list-style: radial-gradient();
+}
