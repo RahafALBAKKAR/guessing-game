@@ -52,3 +52,14 @@ font-family: cursive;
 a{
     list-style: radial-gradient();
 }
+div.fixed {
+    position: fixed;
+top:20px;
+
+    bottom: 0;
+    height: 20px;
+    right: 0;
+    width: 150px;
+    border: 3px solid #7f0a9c;;
+
+}
