@@ -12,6 +12,7 @@ p {
     box-sizing: content-box;
     border-spacing: 5%;
     text-align:start;
+    position: relative;
     top: 200px;
 padding: 3px;;
     color: blueviolet;
