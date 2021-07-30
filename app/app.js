@@ -148,8 +148,9 @@ alert('your Result is ' + counter);
 
 let longestRiver = ["Nile", "Amazon", "Mississippi", "Yenisei"];
 longestRiver.join(" and ");
-for (i = 0; i < 4; i++) {
-  console.log(longestRiver[i]);
+for (let a= 0; a < longestRiver.length; a++) {
+  console.log(longestRiver[a]);
+  longestRiver.join(" and ");
 }
 
 
@@ -159,14 +160,23 @@ and the two possible responses. (The same applies if you’ve added in any other
   pieces to the questions besides the most basic structure.) 
 Replace that content in the functions by accessing the arrays.
 
-let array_of_functions = [
-  sequnceMath(),
-  dividedMath(),
-  averageMath(),
-  sequnceMath()
-]*/
+let repeat = prompt('which question do you want to repeat it?')
 
+ 
+for(let y ; repeat<4; y++){
 
+  let arraysquestion = [
+    sequnceMath(),
+    dividedMath(),
+    averageMath(),
+    sequnceMath()
+  ]
+    arraysquestion(i);
+    console.log(arraysquestion(i));
+    break;
+  }
+  */
+  
 
 //----------------------------------------------------------------//
 /*Make it DRY: Reduce the yes/no questions from five functions 
